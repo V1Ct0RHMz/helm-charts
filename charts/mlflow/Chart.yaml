@@ -12,7 +12,7 @@ description: A Helm chart for Mlflow open source platform for the machine learni
 # pipeline. Library charts do not define any templates and therefore cannot be deployed.
 type: application
 
-version: 1.0.5
+version: 1.0.6
 
 appVersion: ""
 

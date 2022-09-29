@@ -2,6 +2,26 @@ apiVersion: v1
 entries:
   mlflow:
   - apiVersion: v2
+    created: "2022-09-29T20:43:00.88157486Z"
+    description: A Helm chart for Mlflow open source platform for the machine learning
+      lifecycle
+    digest: 08d16b28625e046c66c212692f1c33b78fa02c5d2408797d3ade86ce4e42a880
+    home: https://mlflow.org
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: burak.ince@linux.org.tr
+      name: burakince
+      url: https://www.burakince.net
+    name: mlflow
+    sources:
+    - https://github.com/community-charts/helm-charts
+    - https://github.com/burakince/mlflow
+    - https://github.com/mlflow/mlflow
+    type: application
+    urls:
+    - https://github.com/V1Ct0RHMz/helm-charts/releases/download/mlflow-1.0.4/mlflow-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v2
     created: "2022-09-29T20:36:54.166502141Z"
     description: A Helm chart for Mlflow open source platform for the machine learning
       lifecycle
@@ -149,4 +169,4 @@ entries:
     urls:
     - https://github.com/V1Ct0RHMz/helm-charts/mlflow-0.7.14.tgz
     version: 0.7.14
-generated: "2022-09-29T20:36:54.166524442Z"
+generated: "2022-09-29T20:43:00.881602561Z"

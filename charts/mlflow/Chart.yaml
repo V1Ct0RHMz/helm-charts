@@ -1,7 +1,6 @@
 apiVersion: v2
 name: mlflow
 description: A Helm chart for Mlflow open source platform for the machine learning lifecycle
-icon: https://raw.githubusercontent.com/mlflow/mlflow/master/assets/logo.svg
 
 # A chart can be either an 'application' or a 'library' chart.
 #

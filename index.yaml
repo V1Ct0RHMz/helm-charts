@@ -135,6 +135,6 @@ entries:
     - https://github.com/mlflow/mlflow
     type: application
     urls:
-    - https://github.com/V1Ct0RHMz/helm-charts/archive/refs/tags/v1.0.0.tar.gz
+    - https://github.com/V1Ct0RHMz/helm-charts/archive/refs/tags/mlflow-1.0.0.tar.gz
     version: 1.0.0
 generated: "2022-09-29T15:53:21.842824-03:00"

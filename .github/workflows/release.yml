@@ -36,7 +36,7 @@ jobs:
       - name: Add dependency chart repos
         run: |
           helm repo add jetstack https://charts.jetstack.io
-          helm repo add community-charts https://community-charts.github.io/helm-charts
+          helm repo add V1Ct0RHMz https://v1ct0rhmz.github.io/helm-charts/
 
       - name: Run chart-testing (list-changed)
         id: list-changed
@@ -99,7 +99,7 @@ jobs:
       - name: Add dependency chart repos
         run: |
           helm repo add jetstack https://charts.jetstack.io
-          helm repo add community-charts https://community-charts.github.io/helm-charts
+          helm repo add v1ct0rhmz https://v1ct0rhmz.github.io/helm-charts/
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.4.1
